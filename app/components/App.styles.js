@@ -32,6 +32,10 @@ export const ConfigForm = styled('div')`
   align-items: center;
   padding: 10px 15px;
   flex-shrink: 0;
+  
+  @media screen and (max-width: 24em) {
+    display: none
+  }
 `
 
 export const FieldContainer = styled('div')`
